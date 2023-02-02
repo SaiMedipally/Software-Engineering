@@ -1,0 +1,4 @@
+import pandas as pd
+data = pd.read_csv("vt_tax_data_2016.csv")
+#head displays first five rows of the data set
+print(data.head(5))
