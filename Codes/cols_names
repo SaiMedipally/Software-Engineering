@@ -1,0 +1,3 @@
+cols = ["zipcode", "agi_stub", "mars1", "MARS2", "NUMDEP"]
+data = pd.read_csv("vt_tax_data_2016.csv", usecols=cols)
+print(data.groupby("agi_stub").sum())
