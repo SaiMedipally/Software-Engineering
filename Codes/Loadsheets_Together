@@ -1,0 +1,11 @@
+# Load both the 2016 and 2017 sheets by name
+all_survey_data = pd.read_excel("fcc_survey.xlsx",
+                                sheet_name=['2016','2017'])
+responses_2017 = pd.read_excel("fcc_survey.xlsx",
+                               sheet_name=1)
+# Load all sheets in the Excel file                               
+all_survey_data = pd.read_excel("fcc_survey.xlsx",
+                                sheet_name=None)
+# Load all sheets in the Excel file
+all_survey_data = pd.read_excel("fcc_survey.xlsx",
+                                sheet_name=[0,'2017'])
