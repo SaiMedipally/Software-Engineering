@@ -1,0 +1,7 @@
+#load pandas and create the alchemy engine
+import pandas as pd
+from sqlalchemy import create_engine
+#creating database engine to manage connection
+engine = create_engine("sqlite:///data.db") 
+#load sql query using table name
+weather =pd.read_sql("weather" , engine)
