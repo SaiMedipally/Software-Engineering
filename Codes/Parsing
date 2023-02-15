@@ -1,0 +1,7 @@
+#Listing the columns of date to parse
+date_cols=["StartTime" , "EndTime"]
+survey_df=pd.read_csv("survey.csv", parse_dates = date_cols)
+#loading list of columns in a list(sublists)
+date_cols1=["StartTime" , "EndTime",["StartDate", "EndDate"]]]
+survey_df=pd.read_csv("survey.csv", parse_dates = date_cols1)
+print(survey_df.head())
