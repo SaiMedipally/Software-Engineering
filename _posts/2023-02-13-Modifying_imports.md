@@ -41,8 +41,3 @@ To load data from a database using pandas we use ```pd.read_sql(query, engine)``
 ```query``` can be indicated by the table name or the sql query and ```engine``` indicates the object which uses as connection between the database.
 
 <a href="https://github.com/SaiMedipally/Software-Engineering/blob/main/Codes/DB%20using%20Pandas" > SQLAlchemy Engine </a>
-
-
-
-
-
