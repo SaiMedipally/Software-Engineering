@@ -37,3 +37,6 @@ We can combine SQL queries with pandas using alchemy engine using databases.
   Application Programming Interface defines how to communicate with other programs, we can collect the data using API without the information of the databases.
   We can use different libraries to use APIs which are avaliable in pandas.
   These libraries are used to get data and send data from websites.
+  
+  
+  
