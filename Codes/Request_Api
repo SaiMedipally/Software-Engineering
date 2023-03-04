@@ -1,0 +1,12 @@
+#importing the requests library
+import requests
+import pandas as pd 
+api_url ="https: //api.yelp.com/v3/businesses/search"
+# Set up parameter dictionary according to documentation
+params = {"term": "bookstore",
+"Location": "San Francisco"}
+# Set up header dictionary w/ API key according to documentation
+headers = {"Authorization": "Bearer {}".format (api_key)}
+# Call the API
+response = requests. get (api_url,
+params=params, headers=headers)
