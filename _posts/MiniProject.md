@@ -1,9 +1,10 @@
 I've been learning Python, so based on the python language we had done a mini-project which is ```Typing_Tester```
 Where the user gets the text randomly which we used ```generate_text()``` function where we gave the text manually, It then waits for the user to Press 
-the ```Enter key before starting the test```.
+the
+```Enter key before starting the test```.
 
 
-There is also a function called ```typing_test()`` that tests the user's typing accuracy and speed. 
+There is also a function called ```typing_test()``` that tests the user's typing accuracy and speed. 
 The function imports the time module and a custom module ```generate_text``` that generates random text for the user to type.
 
 
@@ -21,3 +22,10 @@ The typing speed is calculated by dividing the length of the generated text by t
 from seconds to minutes. This value is also rounded to the nearest whole number.
 
 Finally, the function prints out the user's input, the elapsed time, the typing accuracy, and the typing speed in words per minute (WPM).
+Skills/Knowledge that I had learned were useful are :
+The ability to write code in Python and use built-in functions and modules like time is essential for this project.
+Understanding how to generate random text using Python is required to create the ```generate_text()``` function.
+Knowing how to prompt the user for input and display output using Python's ```built-in input()``` and ```print()``` functions is necessary.
+Being able to manipulate strings and compare characters in Python is essential for calculating the user's accuracy and errors.
+
+The biggest challenge in this mini-project is implementing a more algorithm to analyze the user's typing accuracy, to handle errors more effectively.
